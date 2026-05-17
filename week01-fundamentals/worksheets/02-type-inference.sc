@@ -5,6 +5,8 @@ val department = "Engineering"
 val numFloat : Float = 1.23456745  // 1.2345674   ← notice rounding at 7th digit
 val numDouble : Double = 1.23456745 // 1.23456745  ← full precision preserved
 
+val ratio = 3.14 //Float is a 32-bit decimal. Scala infers Double (64-bit) by default for decimal literals
+
 println(s"$numFloat ")
 println(s"$numDouble")
 
